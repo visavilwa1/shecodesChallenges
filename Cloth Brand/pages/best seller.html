@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds_ankara</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/a8/be/86/a8be86c2edf6f4a53e532a34cfa954ed.jpg" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- Swiper Script -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="/pages/script.js" defer></script>
+</head>
+
+
+
+</head>
+
+<body class="font-sans antialiased bg-gray-100">
+
+<header class="bg-white fixed top-0 w-full z-50 shadow-md">
+    <div class="container mx-auto py-4 flex justify-between items-center">
+        <h1 class="text-5xl md:text-4xl lg:text-5xl font-bold text-yellow-600">BIRD'S_ANKARA</h1>
+        <nav class="hidden md:flex justify-center items-center space-x-4">
+            <a href="main.html"
+                class="text-gray-600 hover:text-gray-800 transition duration-300 px-3 py-2 rounded-md">HOME</a>
+            <a href="arrivals.html"
+                class="text-gray-600 hover:text-gray-800 transition duration-300 px-3 py-2 rounded-md">ARRIVALS</a>
+            <a href="best seller.html"
+                class="text-gray-600 hover:text-gray-800 transition duration-300 px-3 py-2 rounded-md">BEST SELLER</a>
+           
+        </nav>
+        <!-- Mobile Navigation Toggle -->
+        <button class="md:hidden text-gray-600 hover:text-gray-800 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </div>
+    <!-- Mobile Navigation Menu -->
+    <div class="md:hidden bg-white fixed top-16 inset-x-0 z-50 shadow-md py-2 px-4 space-y-2 transition duration-300 ease-in-out transform"
+        x-data="{ open: false }" :class="{ 'translate-y-0': open, '-translate-y-full': !open }">
+        <a href="main.html"
+            class="block text-gray-600 hover:text-gray-800 transition duration-300 px-3 py-2 rounded-md"
+            @click="open = false">HOME</a>
+        <a href="arrivals.html"
+            class="block text-gray-600 hover:text-gray-800 transition duration-300 px-3 py-2 rounded-md"
+            @click="open = false">ARRIVALS</a>
+        <a href="best-seller.html"
+            class="block text-gray-600 hover:text-gray-800 transition duration-300 px-3 py-2 rounded-md"
+            @click="open = false">BEST SELLER</a>
+        <a href="shop.html"
+            class="block text-gray-600 hover:text-gray-800 transition duration-300 px-3 py-2 rounded-md"
+            @click="open = false">SHOP</a>
+    </div>
+</header>
+
+
+
+<body>
+
+   
+      <div class="container mx-auto mt-16">
+
+        <section class="about-section text-center brand-background">
+            <div class="mb-8">
+                <h2 class="text-4xl font-bold text-black mb-4 brand-color">Who we are?</h2>
+                <p class="text-black-200">
+                    Embrace the beauty of self-expression with our Ankara fashion. At Birds_Ankara, We celebrate the freedom to express your unique style, the power within you, and above all, your authentic self. Just as makeup enhances beauty, our Ankara pieces empower you to showcase your true essence through vibrant colors, intricate patterns, and timeless designs.
+                </p>
+                
+            </div>
+        </section>
+     
+
+        <!-- Our Mission Section -->
+        <section class="about-section bg-gray-100 py-12">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row items-center">
+                    <!-- Mission Text Column -->
+                    <div class="md:w-1/2 mb-4 md:mb-0">
+                        <div class="about-text">
+                            <h2 class="text-4xl font-bold text-black mb-4 brand-color">Our Mission</h2>
+                            <p class="text-gray-600">
+                                Birds_Ankara is a proudly African Ankara brand, inspired by the spirit of Wendy Omullo. Founded with a vision to fill the void in authentic African fashion, our journey began to provide a platform for self-expression through clothing. Our collections are a celebration of vibrant colors, intricate patterns, and timeless designs, ensuring that every individual feels represented and confident in their unique style.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Mission Image Column -->
+                    <div class="md:w-1/2">
+                        <img src="/Images/md1.jpg" alt="Our Mission" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Our Mission Section -->
+
+     
+             
+
+    </div>
+       
+
+
+
+
+
+
+
+  <footer class="mt-16 mb-1 bg-gray-800 text-white py-20">
+    <div class="flex justify-center mb-4 socials">
+        <a href="#" class="fa fa-facebook mx-2"></a>
+        <a href="#" class="fa fa-twitter mx-2"></a>
+        <a href="https://www.instagram.com/birds_ankara/" class="fa fa-instagram mx-2"></a>
+    </div>
+    <p class="text-center">&copy; 2024 Birds_ankara</p>
+    <p class="text-center font-dancing-script footer-text">Where Style Meets Comfort</p>
+</footer>
+
+</body>
+
+</html>

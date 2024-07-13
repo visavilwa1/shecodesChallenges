@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+
+   
+    color: #333;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b5563;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+h1 {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 700; 
+    font-size: 3.5rem;  
+    color: #fdfd0e;   
+}
+
+nav a:hover {
+    color: #2961d1;
+}
+
+.font-protest {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.font-dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-header {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.about-section {
+    padding: 4rem 0;
+    background-color: #f4f4d6;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+
+/* Image Styles */
+img {
+    max-width: 30%;
+    height: 10%;
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover their container */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+img:hover {
+    transform: scale(1.05); /* Enlarge the image slightly on hover */
+}
+
+/* Add a hover effect for better user feedback */
+img:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+img:hover:after {
+    opacity: 1;
+}
+
+
+.font-protest {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.font-dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+footer {
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a202c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.socials a:hover {
+    color: #4299e1;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 18px;
+}

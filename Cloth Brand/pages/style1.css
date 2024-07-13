@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    color: #333;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b5563;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+h1,h5 {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 700; 
+    font-size: 3.5rem;  
+    color: #fdfd0e;   
+}
+
+nav a:hover {
+    color: #2961d1;
+}
+
+.font-protest {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.font-dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.section-header {
+    width: 100%;
+    margin-bottom: 50px;
+}
+/* Add this CSS to your stylesheet or style section */
+.product {
+    display: grid;
+    grid-template-columns: 1fr; /* One column for each product */
+    gap: 1rem; /* Adjust the gap as needed */
+
+    /* Additional styling for the product container */
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the image within the product */
+.product img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the product details (text, button, etc.) */
+.product div {
+    text-align: center; /* Center align the content */
+}
+
+/* Style for the 'Shop Now' button */
+.product button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #2980b9;
+}
+
+.add-to-cart-btn {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+.added-to-cart {
+    background-color: #45a049;
+}
+
+.font-protest {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.font-dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+footer {
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a202c;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+}
+
+.socials a:hover {
+    color: #4299e1;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
